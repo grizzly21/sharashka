@@ -1,0 +1,29 @@
+.item-section{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.watch-item{
+  margin: 0.8em;
+  flex-basis: calc(33% - 1.5em);
+  background-color: white;
+  transition: all 0.5s ease;
+  .watch-logo{
+    height: 26em;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .watch-info{
+    height: 5em;
+    h3, p{
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  &:hover{
+    box-shadow: 0 0 10px 5px #a6a6a6;
+  }
+}

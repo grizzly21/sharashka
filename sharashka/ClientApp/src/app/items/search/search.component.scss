@@ -1,0 +1,17 @@
+.search-section{
+  width: 100%;
+  input, select{
+    outline: none;
+    border: none;
+    height: 2.4em;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px 1px grey;
+    padding: 0.5em;
+  }
+  input{
+    width: 84%;
+  }
+  select{
+    width: 15%;
+  }
+}
