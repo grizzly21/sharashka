@@ -53,6 +53,35 @@
           <e p="rxjs" t="IncludeRecursive" />
           <e p="ts-node" t="IncludeRecursive" />
           <e p="tslint" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.dom.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2016.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2017.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2017.intl.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es5.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.es6.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.esnext.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.scripthost.d.ts" t="IncludeRecursive" />
+          <e p="typescript/lib/lib.webworker.d.ts" t="IncludeRecursive" />
           <e p="zone.js" t="IncludeRecursive" />
         </e>
         <e p="package-lock.json" t="Include" />
@@ -61,31 +90,37 @@
         <e p="README.md" t="Include" />
         <e p="src" t="Include">
           <e p="app" t="Include">
-            <e p="app.component.css" t="Include" />
+            <e p="app-routing.module.ts" t="Include" />
             <e p="app.component.html" t="Include" />
+            <e p="app.component.scss" t="Include" />
             <e p="app.component.ts" t="Include" />
             <e p="app.module.ts" t="Include" />
-            <e p="counter" t="Include">
-              <e p="counter.component.html" t="Include" />
-              <e p="counter.component.spec.ts" t="Include" />
-              <e p="counter.component.ts" t="Include" />
-            </e>
-            <e p="fetch-data" t="Include">
-              <e p="fetch-data.component.html" t="Include" />
-              <e p="fetch-data.component.ts" t="Include" />
-            </e>
-            <e p="home" t="Include">
-              <e p="home.component.html" t="Include" />
-              <e p="home.component.ts" t="Include" />
-            </e>
-            <e p="nav-menu" t="Include">
-              <e p="nav-menu.component.css" t="Include" />
-              <e p="nav-menu.component.html" t="Include" />
-              <e p="nav-menu.component.ts" t="Include" />
+            <e p="items" t="Include">
+              <e p="goods" t="Include">
+                <e p="goods.component.html" t="Include" />
+                <e p="goods.component.scss" t="Include" />
+                <e p="goods.component.spec.ts" t="Include" />
+                <e p="goods.component.ts" t="Include" />
+              </e>
+              <e p="items.component.html" t="Include" />
+              <e p="items.component.scss" t="Include" />
+              <e p="items.component.spec.ts" t="Include" />
+              <e p="items.component.ts" t="Include" />
+              <e p="search" t="Include">
+                <e p="search.component.html" t="Include" />
+                <e p="search.component.scss" t="Include" />
+                <e p="search.component.spec.ts" t="Include" />
+                <e p="search.component.ts" t="Include" />
+              </e>
             </e>
           </e>
           <e p="assets" t="Include">
             <e p=".gitkeep" t="Include" />
+            <e p="background.jpg" t="Include" />
+            <e p="scss" t="Include">
+              <e p="media.scss" t="Include" />
+            </e>
+            <e p="watch.jpg" t="Include" />
           </e>
           <e p="environments" t="Include">
             <e p="environment.prod.ts" t="Include" />
@@ -94,7 +129,7 @@
           <e p="index.html" t="Include" />
           <e p="main.ts" t="Include" />
           <e p="polyfills.ts" t="Include" />
-          <e p="styles.css" t="Include" />
+          <e p="styles.scss" t="Include" />
           <e p="test.ts" t="Include" />
           <e p="tsconfig.app.json" t="Include" />
           <e p="tsconfig.spec.json" t="Include" />

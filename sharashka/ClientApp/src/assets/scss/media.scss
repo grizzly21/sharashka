@@ -7,55 +7,21 @@ $small: 'max-width: 540px';
 
 @mixin breakpoint($point) {
   @if $point == desktop {
-    @media ($x-large)
+    @media ($x-large) { @content; }
+  }
+  @if $point == notepad {
+    @media ($e-large) { @content; }
 
-{
-@content;
-}
+  } @else if $point == laptop {
+    @media ($large) { @content; }
 
-}
-@if $point == notepad {
-  @media ($e-large)
+  } @else if $point == tablet {
+    @media ($s-large) { @content; }
 
-{
-@content;
-}
+  } @else if $point == phablet {
+    @media ($medium) { @content; }
 
-}
-@else
-if $point == laptop {
-  @media ($large)
-
-{
-@content;
-}
-
-}
-@else
-if $point == tablet {
-  @media ($s-large)
-
-{
-@content;
-}
-
-}
-@else
-if $point == phablet {
-  @media ($medium)
-
-{
-@content;
-}
-
-}
-@else
-if $point == mobileonly {
-  @media ($small)
-
-{
-@content;
-}
-
-}
+  } @else if $point == mobileonly {
+    @media ($small) { @content; }
+  }
 }
